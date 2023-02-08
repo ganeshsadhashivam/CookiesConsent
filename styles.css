@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@1&family=Andika&family=Catamaran:wght@400;500&family=Inter:wght@300&family=Lato:wght@300;400&family=Montserrat:wght@200;300;400&family=Open+Sans:wght@300;400&family=PT+Sans&family=Poppins:wght@300;400&family=Raleway:ital,wght@0,300;0,400;0,600;1,300&family=Tangerine:wght@400;700&family=Ubuntu:wght@300&family=Vollkorn&family=Work+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-family: "Andika", sans-serif;
+  font-family: "Catamaran", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "PT Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Tangerine", cursive;
+  font-family: "Ubuntu", sans-serif;
+  font-family: "Vollkorn", serif;
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  background: #bae6fd;
+}
+
+.wrapper img {
+  width: 90px;
+  object-fit: contain;
+}
+
+.wrapper {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  background: #fff;
+  max-width: 365px;
+  border-radius: 15px;
+  text-align: center;
+  padding: 25px 25px 30px 25px;
+}
+
+.wrapper .content {
+  margin-top: 10px;
+}
+
+.content header {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.content p {
+  color: #858585;
+  margin: 5px 0 20px 0;
+}
+
+.content .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons .item {
+  margin: 0 10px;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  background: #bae6fd;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+  /* color: white; */
+  border-radius: 5px;
+}
+
+.buttons a {
+  /* color: #bae6fd; */
+  color: black;
+}
