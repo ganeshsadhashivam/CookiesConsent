@@ -40,6 +40,12 @@ body {
   padding: 25px 25px 30px 25px;
 }
 
+.wrapper.hide {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+
 .wrapper .content {
   margin-top: 10px;
 }
@@ -72,6 +78,7 @@ body {
   font-weight: 500;
   /* color: white; */
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .buttons a {
